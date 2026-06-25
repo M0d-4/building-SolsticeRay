@@ -1,4 +1,4 @@
-name: Build OnyxKernel Selinux
+name: Build SolsticeRay Selinux
 
 on:
   push:
