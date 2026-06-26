@@ -20,7 +20,7 @@ on:
       defconfig_name:
         description: 'Nama Defconfig'
         required: true
-        default: 'vendor/a23_eur_open_defconfig'
+        default: 'vendor/SolsticeRay_defconfig'
       selinux_mode:
         description: 'Pilih Mode SELinux'
         required: true
