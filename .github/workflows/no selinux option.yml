@@ -1,4 +1,4 @@
-name: Build SolsticeRay NonSelinux
+name: Build M4Nexus NonSelinux
 
 on:
   push:
@@ -100,7 +100,7 @@ jobs:
       with:
         files: AnyKernel3-A235F.zip
         tag_name: "${{ env.RELEASE_TAG }}"
-        name: "SolsticeRay Kernel v${{ env.LINUX_VERSION }}"
+        name: "M4Nexus Kernel v${{ env.LINUX_VERSION }}"
         body: |
           ### Kernel Build Details
           - **Linux Version**: `v${{ env.LINUX_VERSION }}`
